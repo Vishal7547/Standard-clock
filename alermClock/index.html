@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlarmClock</title>
+    <link rel="stylesheet" href="alerm.css">
+</head>
+<body>
+    <div class="upBot">
+     <button class="ruleAlarm v">Alarm Set</button>
+     <button class="stop v" onclick="stopAlarm1">Stop alarm</button>
+     <button class="reset v">reset alarm</button>
+    </div>
+
+
+    <div class="middle">
+        <form action="">
+            <label for="time" class="d1234">entre time</label>
+            <select name="hr" id="hour" class="day">
+                <option value="1" class="hour">1</option>
+                <option value="2" class="hour">2</option>
+                <option value="3" class="hour">3</option>
+                <option value="4" class="hour">4</option>
+                <option value="5" class="hour">5</option>
+                <option value="6" class="hour">6</option>
+                <option value="7" class="hour" selected>7</option>
+                <option value="8" class="hour">8</option>
+                <option value="9" class="hour">9</option>
+                <option value="10" class="hour">10</option>
+                <option value="11" class="hour">11</option>
+                <option value="12" class="hour">12</option>
+            </select>
+
+
+            <select name="min" id="minute" class="day">
+                <option value="0" class="minute">0</option>
+                <option value="1" class="minute">1</option>
+                <option value="2" class="minute">2</option>
+                <option value="3" class="minute">3</option>
+                <option value="4" class="minute">4</option>
+                <option value="5" class="minute">5</option>
+                <option value="6" class="minute">6</option>
+                <option value="7" class="minute">7</option>
+                <option value="8" class="minute">8</option>
+                <option value="9" class="minute">9</option>
+                <option value="10" class="minute">10</option>
+                <option value="11" class="minute">11</option>
+                <option value="12" class="minute">12</option>
+                <option value="13" class="minute">13</option>
+                <option value="14" class="minute">14</option>
+                <option value="15" class="minute">15</option>
+                <option value="16" class="minute">16</option>
+                <option value="17" class="minute">17</option>
+                <option value="18" class="minute">18</option>
+                <option value="19" class="minute">19</option>
+                <option value="20" class="minute">20</option>
+                <option value="21" class="minute">21</option>
+                <option value="22" class="minute">22</option>
+                <option value="23" class="minute">23</option>
+                <option value="24" class="minute">24</option>
+                <option value="25" class="minute">25</option>
+                <option value="26" class="minute">26</option>
+                <option value="27" class="minute">27</option>
+                <option value="28" class="minute">28</option>
+                <option value="29" class="minute">29</option>
+                <option value="30" class="minute">30</option>
+                <option value="31" class="minute">31</option>
+                <option value="32" class="minute">32</option>
+                <option value="33" class="minute">33</option>
+                <option value="34" class="minute">34</option>
+                <option value="35" class="minute">35</option>
+                <option value="36" class="minute">36</option>
+                <option value="37" class="minute">37</option>
+                <option value="38" class="minute">38</option>
+                <option value="39" class="minute" selected>39</option>
+                <option value="40" class="minute">40</option>
+                <option value="41" class="minute">41</option>
+                <option value="42" class="minute">42</option>
+                <option value="43" class="minute">43</option>
+                <option value="44" class="minute">44</option>
+                <option value="45" class="minute">45</option>
+                <option value="46" class="minute">46</option>
+                <option value="47" class="minute">47</option>
+                <option value="48" class="minute">48</option>
+                <option value="49" class="minute">49</option>
+                <option value="50" class="minute">50</option>
+                <option value="51" class="minute">51</option>
+                <option value="52" class="minute">52</option>
+                <option value="53" class="minute">53</option>
+                <option value="54" class="minute">54</option>
+                <option value="55" class="minute">55</option>
+                <option value="56" class="minute">56</option>
+                <option value="57" class="minute">57</option>
+                <option value="58" class="minute">58</option>
+                <option value="59" class="minute">59</option>
+            </select>
+
+            <select name="am" id="pm" class="day">
+                <option value="am" class="am">am</option>
+                <option value="pm" class="pm">pm</option>
+            </select>
+            <audio src="snare.mp3" id="audio1"></audio>
+        <!-- <input id="time" type="text" class="day" value="4" required> <input value="10min" id="timemin" type="text" class="day">
+        <input id="time" type="text" class="day" value="am\pm" required> -->
+        <select id="day" class="select1">
+            <option value="sunday" id="days" class="opt" selected>sunday</option>
+            <option value="monday" id="days" class="opt">monday</option>
+            <option value="tuesday" id="days" class="opt">tuesday</option>
+            <option value="wednesday" id="days" class="opt">wednesday</option>
+            <option value="thursday" id="days" class="opt">thursday</option>
+            <option value="friday" id="days" class="opt">friday</option>
+            <option value="saturday" id="days" class="opt">saturday</option>
+        </select> <br>
+        <input type= "reset" class="g56">
+        <input type= "button" value="save" class="g56 u" onclick="display()">
+    </form>
+    </div>
+
+    <div class="bot">
+        <button class="alarmSet a"> <a href="index.html">Alarm Set</a></button>
+        <button class="digitalClock a"><a href="/clock/index.html"> digital clock</a></button>
+        <button class="stopwatch a">  <a href="/stopWatch/index.html">stop watch</a></button>
+    </div>
+    <script src="alermton.js"></script>
+</body>
+</html>

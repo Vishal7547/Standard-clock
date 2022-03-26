@@ -1,0 +1,135 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.upBot{
+    text-align: right;
+    margin-top:5px;
+}
+
+.v{
+    padding:10px;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    margin:5px;
+    color:white;
+}
+
+.ruleAlarm{
+    background-color: green;
+}
+.stop{
+ background-color: blue;
+}
+.reset{
+  background-color: aqua;
+}
+
+.bot{
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 5px;
+    margin-left:3px;
+}
+
+.a{
+    padding:10px;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    margin:5px;
+    color:white;
+}
+
+
+.alarmSet{
+    background-color: green;
+}
+.digitalClock{
+ background-color: blue;
+}
+.stopwatch{
+  background-color: aqua;
+}
+
+
+.middle{
+    margin:auto;
+    padding:60px;
+    max-width:750px;
+    text-align: center;
+    
+}
+
+.d1234{
+    text-transform: uppercase;
+    color:black;
+    font-weight: bold;
+}
+
+.day{
+    outline:none;
+    border:none;
+    background-color:whitesmoke;
+    width:70px;
+    padding:10px;
+    font-size: 20px;
+
+}
+.select1{
+    border:none;
+    outline:none;
+    background-color: aliceblue;
+    padding:5px;
+    text-transform: uppercase;
+}
+
+.g56{
+    padding:10px;
+    background-color:blue;
+    color:white;
+    text-transform: uppercase;
+    margin-top:8px;
+    border:none;
+    outline:none;
+
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+@media only screen and (max-width: 311px) {
+
+.v{
+    padding:3px;
+    margin:2px;
+}
+
+.a{
+    padding:0px;
+    width:60px;
+}
+.bot{
+    margin:auto;
+}
+/* 
+.middle{
+    max-width:99%;
+} */
+
+.day,.select1{
+    margin-top:3px;
+}
+
+body{
+    background-color:red ;
+}
+
+}

@@ -1,0 +1,144 @@
+
+
+header{
+   // background-color: azure;
+    height: 15vh;
+    width:100%;
+    text-align: center;
+    border-bottom:5px solid pink;
+
+}
+
+body{
+    background-image: url(vk.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.yoo{
+    font-size: 50px;
+    
+    color:#ff8080;
+    text-shadow: 2px 2px 4px #000000;
+text-transform: uppercase;
+letter-spacing: 2px;
+word-spacing: 5px;
+}
+
+.jh456{
+    height:50vh;
+    width:60%;
+    background-color:#ffffe6 ;
+   // text-align: center;
+    margin: auto;
+  //  text-align: justify;
+    margin-top: 80px;
+}
+    
+@media only screen and (max-width: 365px) {
+    header {
+     
+      height: 25vh; 
+    }
+    div{
+        width: 100%;
+    }
+    
+}
+@media only screen and (max-width: 400px) {
+    div{
+        width: 100%;
+    } 
+}
+
+@media only screen and (max-width: 500px) {
+    div{
+        width: 100%;
+    } 
+}
+
+.huf{
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.kkk{
+    color:#ff3300;
+    text-shadow: 2px 2px 10px;
+  
+    font-family: 'Amatic SC', cursive;
+     letter-spacing: 3px;
+     word-spacing: 5px;
+     font-size: 2vw;
+
+}
+
+
+.row2{
+   color:#4d4d4d;
+   text-shadow: 2px 2px 10px #ff0000;
+   text-transform: uppercase;
+    font-family: 'Neonderthaw', cursive;
+    letter-spacing: 3px;
+     word-spacing: 5px;
+     font-size: 3vw;
+}
+
+.bot{
+    position:fixed;
+    bottom:0;
+    left:0;
+    margin-bottom: 5px;
+    margin-left:3px;
+}
+
+.a{
+    padding:10px;
+    border:none;
+    outline:none;
+    text-transform: uppercase;
+    margin:5px;
+    color:white;
+}
+
+.alarmSet{
+    background-color: green;
+}
+.digitalClock{
+ background-color: blue;
+}
+.stopwatch{
+  background-color: aqua;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+    
+    .a{
+        padding:0px;
+        width:60px;
+    }
+    .bot{
+        margin:auto;
+    }
+    body{
+        background-image: none;
+        background-color: #ff0000;
+    }
+    .jh456{
+        padding:70px 0px;
+      
+       background-color: aliceblue;
+   }
+    }
